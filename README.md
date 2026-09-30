@@ -108,6 +108,5 @@ print(delivered.groupby("platform")["net_revenue"].sum().sort_values(ascending=F
 - All monetary values are in AED.
 - Timestamps use the format `YYYY-MM-DD HH:MM:SS`.
 
-
-  ## Live Dashboard
-  [View the dashboard](https://shalini09924.github.io/Data26/dashboard.html)
+   ## Live Dashboard
+   [View the dashboard](https://shalini09924.github.io/Data26/dashboard.html)
