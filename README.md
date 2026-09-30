@@ -3,8 +3,8 @@
 > Period: **30 Aug 2026 - 28 Sep 2026** | Data: `orders`, `order_items`, `menu`, `platforms`, `areas` (Dubai)
 > Revenue figures use **Delivered** orders only. Net revenue = gross - platform commission.
 
-![Net Revenue](https://img.shields.io/badge/Net%20Revenue-AED%20520,348-0F8B8D?style=for-the-badge&labelColor=1B2A49) ![Gross Sales](https://img.shields.io/badge/Gross%20Sales-AED%20622,663-1B2A49?style=for-the-badge&labelColor=0F8B8D) ![Commission](https://img.shields.io/badge/Commission-AED%20102,315-F0906A?style=for-the-badge&labelColor=1B2A49)
-![Orders](https://img.shields.io/badge/Orders-6,336-1B2A49?style=for-the-badge&labelColor=0F8B8D) ![Cancel Rate](https://img.shields.io/badge/Cancel%20Rate-5.0%25-F0906A?style=for-the-badge&labelColor=1B2A49) ![Avg Order](https://img.shields.io/badge/Avg%20Order-AED%20103-0F8B8D?style=for-the-badge&labelColor=1B2A49)
+![Net Revenue](https://img.shields.io/badge/Net%20Revenue-AED%20520,348-6C4AB6?style=for-the-badge&labelColor=2D1B4E) ![Gross Sales](https://img.shields.io/badge/Gross%20Sales-AED%20622,663-2D1B4E?style=for-the-badge&labelColor=6C4AB6) ![Commission](https://img.shields.io/badge/Commission-AED%20102,315-F5A623?style=for-the-badge&labelColor=2D1B4E)
+![Orders](https://img.shields.io/badge/Orders-6,336-2D1B4E?style=for-the-badge&labelColor=6C4AB6) ![Cancel Rate](https://img.shields.io/badge/Cancel%20Rate-5.0%25-F5A623?style=for-the-badge&labelColor=2D1B4E) ![Avg Order](https://img.shields.io/badge/Avg%20Order-AED%20103-6C4AB6?style=for-the-badge&labelColor=2D1B4E)
 
 ---
 
@@ -32,7 +32,7 @@
 ## 3. Sales Trend
 
 ```mermaid
-%%{init: {"theme": "base", "themeVariables": {"xyChart": {"backgroundColor": "#FFF7F1", "titleColor": "#1B2A49", "xAxisLabelColor": "#1B2A49", "xAxisTitleColor": "#1B2A49", "xAxisTickColor": "#1B2A49", "xAxisLineColor": "#1B2A49", "yAxisLabelColor": "#1B2A49", "yAxisTitleColor": "#1B2A49", "yAxisTickColor": "#1B2A49", "yAxisLineColor": "#1B2A49", "plotColorPalette": "#0F8B8D"}}}}%%
+%%{init: {"theme": "base", "themeVariables": {"xyChart": {"backgroundColor": "#F7F3FF", "titleColor": "#2D1B4E", "xAxisLabelColor": "#2D1B4E", "xAxisTitleColor": "#2D1B4E", "xAxisTickColor": "#2D1B4E", "xAxisLineColor": "#2D1B4E", "yAxisLabelColor": "#2D1B4E", "yAxisTitleColor": "#2D1B4E", "yAxisTickColor": "#2D1B4E", "yAxisLineColor": "#2D1B4E", "plotColorPalette": "#6C4AB6"}}}}%%
 xychart-beta
     title "Daily Net Revenue (AED)"
     x-axis ["30 Aug", "31 Aug", "01 Sep", "02 Sep", "03 Sep", "04 Sep", "05 Sep", "06 Sep", "07 Sep", "08 Sep", "09 Sep", "10 Sep", "11 Sep", "12 Sep", "13 Sep", "14 Sep", "15 Sep", "16 Sep", "17 Sep", "18 Sep", "19 Sep", "20 Sep", "21 Sep", "22 Sep", "23 Sep", "24 Sep", "25 Sep", "26 Sep", "27 Sep", "28 Sep"]
@@ -41,7 +41,7 @@ xychart-beta
 ```
 
 ```mermaid
-%%{init: {"theme": "base", "themeVariables": {"xyChart": {"backgroundColor": "#FFF7F1", "titleColor": "#1B2A49", "xAxisLabelColor": "#1B2A49", "xAxisTitleColor": "#1B2A49", "xAxisTickColor": "#1B2A49", "xAxisLineColor": "#1B2A49", "yAxisLabelColor": "#1B2A49", "yAxisTitleColor": "#1B2A49", "yAxisTickColor": "#1B2A49", "yAxisLineColor": "#1B2A49", "plotColorPalette": "#1B2A49"}}}}%%
+%%{init: {"theme": "base", "themeVariables": {"xyChart": {"backgroundColor": "#F7F3FF", "titleColor": "#2D1B4E", "xAxisLabelColor": "#2D1B4E", "xAxisTitleColor": "#2D1B4E", "xAxisTickColor": "#2D1B4E", "xAxisLineColor": "#2D1B4E", "yAxisLabelColor": "#2D1B4E", "yAxisTitleColor": "#2D1B4E", "yAxisTickColor": "#2D1B4E", "yAxisLineColor": "#2D1B4E", "plotColorPalette": "#2D1B4E"}}}}%%
 xychart-beta
     title "Avg Daily Net Revenue by Weekday (AED)"
     x-axis ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
@@ -50,7 +50,7 @@ xychart-beta
 ```
 
 ```mermaid
-%%{init: {"theme": "base", "themeVariables": {"xyChart": {"backgroundColor": "#FFF7F1", "titleColor": "#1B2A49", "xAxisLabelColor": "#1B2A49", "xAxisTitleColor": "#1B2A49", "xAxisTickColor": "#1B2A49", "xAxisLineColor": "#1B2A49", "yAxisLabelColor": "#1B2A49", "yAxisTitleColor": "#1B2A49", "yAxisTickColor": "#1B2A49", "yAxisLineColor": "#1B2A49", "plotColorPalette": "#0F8B8D"}}}}%%
+%%{init: {"theme": "base", "themeVariables": {"xyChart": {"backgroundColor": "#F7F3FF", "titleColor": "#2D1B4E", "xAxisLabelColor": "#2D1B4E", "xAxisTitleColor": "#2D1B4E", "xAxisTickColor": "#2D1B4E", "xAxisLineColor": "#2D1B4E", "yAxisLabelColor": "#2D1B4E", "yAxisTitleColor": "#2D1B4E", "yAxisTickColor": "#2D1B4E", "yAxisLineColor": "#2D1B4E", "plotColorPalette": "#6C4AB6"}}}}%%
 xychart-beta
     title "Delivered Orders by Hour of Day"
     x-axis ["00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23"]
@@ -63,7 +63,7 @@ xychart-beta
 ## 4. Channels & Platforms
 
 ```mermaid
-%%{init: {"theme": "base", "themeVariables": {"background": "#FFF7F1", "pie1": "#1B2A49", "pie2": "#0F8B8D", "pie3": "#F0906A", "pie4": "#4A6FA5", "pie5": "#3CBFB9", "pie6": "#F6B08C", "pie7": "#7C93B8", "pieTitleTextColor": "#1B2A49", "pieSectionTextColor": "#FFFFFF", "pieLegendTextColor": "#1B2A49", "pieStrokeColor": "#FFFFFF", "pieOuterStrokeColor": "#1B2A49", "pieOpacity": "1"}}}%%
+%%{init: {"theme": "base", "themeVariables": {"background": "#F7F3FF", "pie1": "#2D1B4E", "pie2": "#6C4AB6", "pie3": "#F5A623", "pie4": "#8E7CC3", "pie5": "#B39DDB", "pie6": "#FFC46B", "pie7": "#9FA8DA", "pieTitleTextColor": "#2D1B4E", "pieSectionTextColor": "#FFFFFF", "pieLegendTextColor": "#2D1B4E", "pieStrokeColor": "#FFFFFF", "pieOuterStrokeColor": "#2D1B4E", "pieOpacity": "1"}}}%%
 pie showData title Delivered Orders by Platform
     "Talabat" : 1944.0
     "Deliveroo" : 1008.0
@@ -85,7 +85,7 @@ pie showData title Delivered Orders by Platform
 | Noon Food | Aggregator | 503 | 6.0% | 20% | 47,991 | 9,598 | 38,393 | 81.2 |
 
 ```mermaid
-%%{init: {"theme": "base", "themeVariables": {"background": "#FFF7F1", "pie1": "#1B2A49", "pie2": "#0F8B8D", "pie3": "#F0906A", "pie4": "#4A6FA5", "pie5": "#3CBFB9", "pie6": "#F6B08C", "pie7": "#7C93B8", "pieTitleTextColor": "#1B2A49", "pieSectionTextColor": "#FFFFFF", "pieLegendTextColor": "#1B2A49", "pieStrokeColor": "#FFFFFF", "pieOuterStrokeColor": "#1B2A49", "pieOpacity": "1"}}}%%
+%%{init: {"theme": "base", "themeVariables": {"background": "#F7F3FF", "pie1": "#2D1B4E", "pie2": "#6C4AB6", "pie3": "#F5A623", "pie4": "#8E7CC3", "pie5": "#B39DDB", "pie6": "#FFC46B", "pie7": "#9FA8DA", "pieTitleTextColor": "#2D1B4E", "pieSectionTextColor": "#FFFFFF", "pieLegendTextColor": "#2D1B4E", "pieStrokeColor": "#FFFFFF", "pieOuterStrokeColor": "#2D1B4E", "pieOpacity": "1"}}}%%
 pie showData title Commission Paid by Platform (AED)
     "Talabat" : 49346.5
     "Deliveroo" : 27860.5
@@ -105,7 +105,7 @@ pie showData title Commission Paid by Platform (AED)
 ## 5. Delivery Areas
 
 ```mermaid
-%%{init: {"theme": "base", "themeVariables": {"xyChart": {"backgroundColor": "#FFF7F1", "titleColor": "#1B2A49", "xAxisLabelColor": "#1B2A49", "xAxisTitleColor": "#1B2A49", "xAxisTickColor": "#1B2A49", "xAxisLineColor": "#1B2A49", "yAxisLabelColor": "#1B2A49", "yAxisTitleColor": "#1B2A49", "yAxisTickColor": "#1B2A49", "yAxisLineColor": "#1B2A49", "plotColorPalette": "#1B2A49"}}}}%%
+%%{init: {"theme": "base", "themeVariables": {"xyChart": {"backgroundColor": "#F7F3FF", "titleColor": "#2D1B4E", "xAxisLabelColor": "#2D1B4E", "xAxisTitleColor": "#2D1B4E", "xAxisTickColor": "#2D1B4E", "xAxisLineColor": "#2D1B4E", "yAxisLabelColor": "#2D1B4E", "yAxisTitleColor": "#2D1B4E", "yAxisTickColor": "#2D1B4E", "yAxisLineColor": "#2D1B4E", "plotColorPalette": "#2D1B4E"}}}}%%
 xychart-beta
     title "Delivery Orders by Area"
     x-axis ["Al Barsha", "JLT", "Barsha Heights", "Dubai Marina", "JVC", "Al Quoz", "Umm Suqeim", "Jumeirah", "Business Bay", "Downtown Dubai"]
@@ -131,7 +131,7 @@ xychart-beta
 ## 6. Menu Performance
 
 ```mermaid
-%%{init: {"theme": "base", "themeVariables": {"background": "#FFF7F1", "pie1": "#1B2A49", "pie2": "#0F8B8D", "pie3": "#F0906A", "pie4": "#4A6FA5", "pie5": "#3CBFB9", "pie6": "#F6B08C", "pie7": "#7C93B8", "pieTitleTextColor": "#1B2A49", "pieSectionTextColor": "#FFFFFF", "pieLegendTextColor": "#1B2A49", "pieStrokeColor": "#FFFFFF", "pieOuterStrokeColor": "#1B2A49", "pieOpacity": "1"}}}%%
+%%{init: {"theme": "base", "themeVariables": {"background": "#F7F3FF", "pie1": "#2D1B4E", "pie2": "#6C4AB6", "pie3": "#F5A623", "pie4": "#8E7CC3", "pie5": "#B39DDB", "pie6": "#FFC46B", "pie7": "#9FA8DA", "pieTitleTextColor": "#2D1B4E", "pieSectionTextColor": "#FFFFFF", "pieLegendTextColor": "#2D1B4E", "pieStrokeColor": "#FFFFFF", "pieOuterStrokeColor": "#2D1B4E", "pieOpacity": "1"}}}%%
 pie showData title Revenue by Cuisine (AED)
     "Indian" : 149923.0
     "Arabic" : 148209.0
@@ -141,7 +141,7 @@ pie showData title Revenue by Cuisine (AED)
 ```
 
 ```mermaid
-%%{init: {"theme": "base", "themeVariables": {"xyChart": {"backgroundColor": "#FFF7F1", "titleColor": "#1B2A49", "xAxisLabelColor": "#1B2A49", "xAxisTitleColor": "#1B2A49", "xAxisTickColor": "#1B2A49", "xAxisLineColor": "#1B2A49", "yAxisLabelColor": "#1B2A49", "yAxisTitleColor": "#1B2A49", "yAxisTickColor": "#1B2A49", "yAxisLineColor": "#1B2A49", "plotColorPalette": "#F0906A"}}}}%%
+%%{init: {"theme": "base", "themeVariables": {"xyChart": {"backgroundColor": "#F7F3FF", "titleColor": "#2D1B4E", "xAxisLabelColor": "#2D1B4E", "xAxisTitleColor": "#2D1B4E", "xAxisTickColor": "#2D1B4E", "xAxisLineColor": "#2D1B4E", "yAxisLabelColor": "#2D1B4E", "yAxisTitleColor": "#2D1B4E", "yAxisTickColor": "#2D1B4E", "yAxisLineColor": "#2D1B4E", "plotColorPalette": "#F5A623"}}}}%%
 xychart-beta
     title "Revenue by Category (AED)"
     x-axis ["Main", "Starter", "Beverage", "Side", "Dessert"]
@@ -169,7 +169,7 @@ xychart-beta
 ## 7. Cancellations
 
 ```mermaid
-%%{init: {"theme": "base", "themeVariables": {"xyChart": {"backgroundColor": "#FFF7F1", "titleColor": "#1B2A49", "xAxisLabelColor": "#1B2A49", "xAxisTitleColor": "#1B2A49", "xAxisTickColor": "#1B2A49", "xAxisLineColor": "#1B2A49", "yAxisLabelColor": "#1B2A49", "yAxisTitleColor": "#1B2A49", "yAxisTickColor": "#1B2A49", "yAxisLineColor": "#1B2A49", "plotColorPalette": "#F0906A"}}}}%%
+%%{init: {"theme": "base", "themeVariables": {"xyChart": {"backgroundColor": "#F7F3FF", "titleColor": "#2D1B4E", "xAxisLabelColor": "#2D1B4E", "xAxisTitleColor": "#2D1B4E", "xAxisTickColor": "#2D1B4E", "xAxisLineColor": "#2D1B4E", "yAxisLabelColor": "#2D1B4E", "yAxisTitleColor": "#2D1B4E", "yAxisTickColor": "#2D1B4E", "yAxisLineColor": "#2D1B4E", "plotColorPalette": "#F5A623"}}}}%%
 xychart-beta
     title "Cancellation Rate by Platform (%)"
     x-axis ["Careem", "Noon Food", "Talabat", "Deliveroo", "Website", "App", "Phone"]
