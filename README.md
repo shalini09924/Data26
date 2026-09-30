@@ -2,6 +2,10 @@
 
 A sample dataset of food orders for a Dubai-based restaurant selling through delivery aggregators, its own direct channels, and phone. It covers **30 days of orders (2026-08-30 to 2026-09-28)** across 10 delivery areas, and is suited to analysis of revenue, platform commissions, delivery performance, and menu popularity.
 
+## Live Dashboard
+
+[View the dashboard](https://shalini09924.github.io/Data26/dashboard.html)
+
 ## Files
 
 | File | Description | Rows |
@@ -14,7 +18,10 @@ A sample dataset of food orders for a Dubai-based restaurant selling through del
 
 ## Data Dictionary
 
-### orders.csv
+### 1. orders.csv
+
+One row per order.
+
 | Column | Description |
 |---|---|
 | `order_id` | Unique order ID (e.g. `ORD-100001`). Primary key |
@@ -34,7 +41,10 @@ A sample dataset of food orders for a Dubai-based restaurant selling through del
 
 Missing timestamps are expected: cancelled orders have no `ready_at` or `completed_at`, and pickup orders have no `dispatched_at`.
 
-### order_items.csv
+### 2. order_items.csv
+
+One row per dish in an order.
+
 | Column | Description |
 |---|---|
 | `order_id` | Links to `orders.order_id` |
@@ -45,7 +55,10 @@ Missing timestamps are expected: cancelled orders have no `ready_at` or `complet
 | `unit_price` | Price per unit in AED |
 | `line_total` | `quantity * unit_price` |
 
-### menu.csv
+### 3. menu.csv
+
+Menu reference with 56 dishes.
+
 | Column | Description |
 |---|---|
 | `dish_id` | Unique dish ID (e.g. `AR01`). Primary key |
@@ -56,7 +69,10 @@ Missing timestamps are expected: cancelled orders have no `ready_at` or `complet
 | `prep_minutes` | Typical preparation time |
 | `popularity` | Popularity score (higher = more popular) |
 
-### platforms.csv
+### 4. platforms.csv
+
+Sales channels and their commission rates.
+
 | Column | Description |
 |---|---|
 | `platform` | Platform name. Primary key |
@@ -65,7 +81,10 @@ Missing timestamps are expected: cancelled orders have no `ready_at` or `complet
 | `order_share` | Share of total orders from this platform |
 | `pickup_share` | Share of this platform's orders that are pickups |
 
-### areas.csv
+### 5. areas.csv
+
+Delivery areas and their distance from the restaurant.
+
 | Column | Description |
 |---|---|
 | `area` | Delivery area name. Primary key |
@@ -107,6 +126,3 @@ print(delivered.groupby("platform")["net_revenue"].sum().sort_values(ascending=F
 
 - All monetary values are in AED.
 - Timestamps use the format `YYYY-MM-DD HH:MM:SS`.
-
-   ## Live Dashboard
-   [View the dashboard](https://shalini09924.github.io/Data26/dashboard.html)
